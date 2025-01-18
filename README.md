@@ -1,0 +1,2 @@
+# R CSV File Reading Bug
+This repository demonstrates a common error in R when dealing with file I/O: inadequate error handling during CSV file reading.  The `bug.r` file contains code that attempts to read a CSV file but fails gracefully if the file is missing or inaccessible.  The solution, provided in `bugSolution.r`, showcases improved error handling and informative error messages.
